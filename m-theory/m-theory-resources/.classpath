@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="src" path="src/main/resources"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-core"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-savable"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-awt"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-math"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-animation"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-collada"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-effects"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-extras"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-jogl"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-lwjgl"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-swt"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-terrain"/>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/ardor3d-ui"/>
+	<classpathentry kind="output" path="target"/>
+</classpath>
