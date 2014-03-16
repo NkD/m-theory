@@ -1,0 +1,9 @@
+newmtl 
+Ns 128
+d 1
+illum 2
+Kd 1 1 1
+Ka 0 0 0
+Ks 1 1 1
+map_Kd E:\project.m-theory\modo\spacecraft\textures\spacecraft.png
+
