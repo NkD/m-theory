@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.cuberact</groupId>
+        <artifactId>m-theory-parent</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>m-theory-resources</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-savable</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-math</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-jogl</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-lwjgl</artifactId>
+        </dependency>
+        <!--dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-swt</artifactId>
+        </dependency-->
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-awt</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-extras</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-effects</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-collada</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-animation</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-ui</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ardor3d</groupId>
+            <artifactId>ardor3d-terrain</artifactId>
+        </dependency>
+    </dependencies>
+</project>
