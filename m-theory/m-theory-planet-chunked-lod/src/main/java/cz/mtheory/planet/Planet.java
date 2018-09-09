@@ -127,7 +127,7 @@ public class Planet extends Mesh {
 
             renderer.applyDefaultColor(chunk.getColor());
             renderer.setupInterleavedDataVBO(chunk.getInterleavedData(), chunk.getVertexBufferData(),chunk.getNormalBufferData(), null, config.getConstants().textureCoords);
-            renderer.drawElementsVBO(config.getChunkIndexBufferData(chunk.getIndex()), null, indexModes, 1);
+            renderer.drawElements(config.getChunkIndexBufferData(chunk.getIndex()), null, indexModes, -1);
             //renderer.drawElementsVBO(config.getChunkIndexBufferData(24), null, indexModes);
         }
         if (transformed) renderer.undoTransforms(_worldTransform);
